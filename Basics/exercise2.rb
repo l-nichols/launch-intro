@@ -6,11 +6,6 @@
 # 4) ones place
 
 def parse_number(number)
-  thousands = 0
-  hundreds = 0
-  tens = 0
-  ones = 0
-
   thousands = number / 1000
   hundreds = number % 1000 / 100
   tens = number % 100 / 10
