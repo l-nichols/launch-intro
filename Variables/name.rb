@@ -13,3 +13,15 @@ puts "Hi there, #{name}!"
 # Hint: you can use the times method to do something repeatedly.
 
 10.times {puts name}
+
+# Exercise 4
+# Modify name.rb again so that it first asks the user for their first name,
+# saves it into a variable, and then does the same for the last name.
+# Then outputs their full name all at once.
+
+puts "What's your first name?"
+first_name = gets.chomp
+puts "Great. What's your last name?"
+last_name = gets.chomp
+
+puts "#{first_name} #{last_name}"
